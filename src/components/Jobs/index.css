@@ -1,0 +1,144 @@
+.jobs-page-main-bg {
+  background-color: #000000;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.jobs-page-main-container {
+  display: flex;
+  flex-direction: column;
+  width: 98%;
+}
+
+.profile-and-filter-items-main-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  /* background-color: #4f46e5; */
+}
+.search-bar-container {
+  display: flex;
+  background-color: #272727;
+  border: 1px solid #7d7d7e;
+  width: 90%;
+  max-width: 350px;
+  border-radius: 6px;
+  margin: 20px;
+  align-items: center;
+  /* justify-content: space-evenly; */
+}
+.search-input {
+  width: 83%;
+  outline: none;
+  color: #f1f5f9;
+  font-size: large;
+  border: none;
+  background-color: #000000;
+  padding: 7px 19px;
+  border-radius: 6px;
+}
+.search-icon {
+  font-size: 100%;
+  color: #f1f5f9;
+  margin: auto;
+}
+
+.lg-search-bar {
+  display: none;
+}
+
+.main-job-card-items-bg-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 89vh;
+  width: 93%;
+  align-self: center;
+  background-color: transparent;
+}
+.job-card-items-container {
+  height: 89vh;
+  overflow: auto;
+  width: 100%;
+}
+.loading-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 20vh;
+  align-items: center;
+}
+.failure-container {
+  color: #ffff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+.failure-logo {
+  width: 100%;
+}
+.failure-head {
+  font-size: 22px;
+}
+.failure-sub-line {
+  font-size: 12px;
+}
+.failure-btn {
+  border-radius: 10px;
+  font-family: 'roboto';
+  font-weight: 700;
+  color: #ffff;
+  background-color: #4f46e5;
+  margin-top: 20px;
+  padding: 6px 25px;
+  outline: none;
+  border: none;
+  font-size: larger;
+}
+
+@media (min-width: 770px) {
+  .jobs-page-main-bg {
+    min-height: 100vh;
+  }
+  .jobs-page-main-container {
+    display: flex;
+    flex-direction: row;
+  }
+  .profile-and-filter-items-main-container {
+    width: 30%;
+    padding-left: 20px;
+    padding-top: 14px;
+  }
+  .sm-search-bar {
+    display: none;
+  }
+  .lg-search-bar {
+    display: block;
+    width: 80%;
+    align-self: flex-start;
+    margin-left: 46px;
+    max-width: 350px;
+  }
+  .search-icon {
+    margin-left: 5%;
+  }
+  .loading-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 60vh;
+  }
+  .main-job-card-items-bg-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 89vh;
+    width: 70%;
+  }
+  .failure-logo {
+    width: 40%;
+  }
+}

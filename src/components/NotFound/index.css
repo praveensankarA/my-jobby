@@ -1,0 +1,33 @@
+.not-found-bg-container {
+  background-color: black;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  height: 94vh;
+  color: #ffff;
+  justify-content: center;
+}
+.not-found-img {
+  width: 80%;
+}
+
+.not-found-head {
+  font-size: larger;
+}
+.not-found-description {
+  font-size: small;
+}
+
+@media (min-width: 700px) {
+  .not-found-img {
+    width: 30%;
+  }
+  .not-found-bg-container {
+    height: 90vh;
+  }
+
+  .not-found-description:hover {
+    font-size: larger;
+    color: red;
+  }
+}

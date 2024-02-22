@@ -1,0 +1,50 @@
+.skills-card-main-container {
+  width: 90%;
+  min-width: 100px;
+  align-self: center;
+}
+.skills-main-container {
+  padding: 0px;
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+}
+.skill-ele {
+  width: 50%;
+  display: flex;
+  align-items: center;
+}
+.skill-logo {
+  width: 25px;
+}
+.skill-title {
+  margin-left: 10px;
+  font-size: 16px;
+  color: #c9c9c9;
+}
+@media (min-width: 500px) {
+  .skills-main-container {
+    display: flex;
+    width: 90%;
+    flex-wrap: wrap;
+  }
+  .skill-ele {
+    width: 30%;
+    display: flex;
+    align-items: center;
+  }
+}
+
+@media (min-width: 700px) {
+  .skill-ele {
+    width: 17%;
+    margin: 10px;
+    width: 20%;
+  }
+  .skill-logo {
+    width: 30px;
+  }
+  .skill-title {
+    font-size: 18px;
+  }
+}

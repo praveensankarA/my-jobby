@@ -1,0 +1,54 @@
+.filter-main-container {
+  display: flex;
+  flex-direction: column;
+  width: 85%;
+  margin-top: -10px;
+}
+.checkbox-container {
+  list-style: none;
+  color: rgb(179, 179, 179);
+  padding: 7px 12px;
+  width: 100%;
+  margin-top: 0px;
+}
+.radio-container {
+  list-style: none;
+  color: rgb(179, 179, 179);
+  padding: 5px 7px;
+  width: 100%;
+  margin-top: 0px;
+}
+.employment-head {
+  color: rgb(233, 233, 233);
+  font-size: 20px;
+  margin-bottom: 5px;
+  /* border-bottom: 2px dashed rgb(145, 151, 151); */
+}
+.underline {
+  margin-top: -17px;
+  margin-bottom: 0px;
+  color: rgb(187, 187, 187);
+}
+.checkbox-ele {
+  width: 20px;
+  background-color: rgb(187, 187, 187);
+  height: 16px;
+}
+.checkbox-label-ele {
+  margin-left: 6px;
+  line-height: 26px;
+  font-size: medium;
+}
+.check-box-hr {
+  width: 100%;
+  margin-top: -8px;
+}
+
+@media (width: 700px) {
+  .checkbox-container {
+    font-size: medium;
+  }
+  .checkbox-label-ele {
+    font-size: 10px;
+  }
+}
